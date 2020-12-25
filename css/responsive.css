@@ -1,0 +1,223 @@
+
+/* medium desktop :992px */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+.container{width:970px;}
+.contain{width:970px;}
+.work a {
+    padding-left: 480px;
+}
+.video i {
+    left: 440px;
+    top: 190px;
+}
+
+.footer .col-3 .list {
+    padding: 100px 50px;
+}
+.work .w i {
+    left: 112px;
+    top: 100px;
+}
+
+}
+
+
+
+
+/* tablet device :768px */
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+.container{width:750px;}
+.contain{width:750px;}
+.completed p {
+    display: block;
+    padding-left: 0;
+}
+.numbers {
+    padding-left: 60px;
+}
+.services .contain .col-3 i {
+    font-size: 48px;
+    padding: 0 70px;
+    padding-bottom: 25px;
+    color: #656565;
+}
+.services .contain .col-3 i {
+    padding: 0 70px;
+}
+.work a {
+    padding-left: 390px;
+}
+.video i {
+    left: 333px;
+    top: 140px;
+}
+.work .w i {
+    left: 90px;
+    top: 80px;
+}
+.footer .gmail p {
+    padding-left: 20px;
+}
+.footer .col-3 .list {
+    padding: 100px 20px;
+}
+.footer .link {
+    padding-left: 50px;
+}
+
+}
+
+
+
+
+/* small mobile :320px */
+
+@media (max-width: 767px) {
+
+.container{width:300px;}
+.contain{width:300px;}
+.slicknav_menu {
+    display: block;
+    background: 0;
+}
+.slicknav_btn {
+    position: absolute;
+    top: 38px;
+    right: 90px;
+    content: "";
+    z-index: 99;
+}
+a.slicknav_btn.slicknav_open {
+    position: absolute;
+    top: 238px;
+}
+.slicknav_nav a {
+    text-transform: uppercase;
+    background: cornflowerblue;
+}
+.main-menu ul li a {
+    display: none;
+}
+.col-6 {
+    width: 100%;
+}
+.none.col-6 {
+    display: none;
+}
+.header-area.fix {
+    background-size: cover;
+    background: center;
+}
+.text h1 {
+    color: lightgrey;
+}
+.ui:before {
+    width: 225px;
+}
+.ui:after {
+    width: 75px;
+    left: 225px;
+}
+.web:before {
+    width: 270px;
+}
+.web:after {
+    width: 30px;
+    left: 270px;
+}
+.mar:before {
+    width: 195px;
+}
+.mar:after {
+    width: 105px;
+    left: 195px;
+}
+.numbers .col-3 {
+    width: 100%;
+    padding-bottom: 45px;
+}
+.numbers {
+    height: 570px;
+}
+.work .col-3 {
+    width: 50%;
+}
+.work .w i {
+    left: 100px;
+    top: 80px;
+}
+.work a {
+    padding-left: 185px;
+
+}
+.video i {
+    left: 125px;
+    top: 47px;
+    height: 50px;
+    width: 50px;
+    padding-top: 13px;
+}
+.services .contain .col-3 i {
+    padding: 0 60px;
+}
+.services .contain .col-3 {
+    width: 50%;
+}
+.testimonials .text h3 {
+    font-size: 19px;
+}
+input.title {
+    width: 320px;
+    height: 70px;
+}
+input.comment {
+    width: 320px;
+}
+.footer .col-3 {
+    width: 50%;
+}
+.footer .col-4 {
+    width: 50%;
+    padding-top: 100px;
+    padding-bottom: 0;
+}
+.footer .gmail p {
+    font-size: 14px;
+    padding-left: 5px;
+}
+.footer .col-3 .list {
+    margin-top: 30px;
+    margin-left: -200px;
+    padding: 0 50px;
+    padding-top: 100px;
+}
+.col-2 {
+    width: 50%;
+}
+.footer .link {
+    padding-top: 35px;
+    padding-left: 0px;
+    padding-bottom: 100px;
+}
+
+}
+
+
+
+
+
+/* Large mobile :480px */
+
+@media only screen and  (min-width: 768px) and (max-width: 767px) {
+
+.container{width:450px;}
+.contain{width:450px;}
+
+
+}
+
+
